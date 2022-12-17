@@ -10,6 +10,7 @@ body{
     margin: 0;
     padding: 0;
     display: flex;
+    width: 100%;
     align-items: center;
     flex-direction: column;
     justify-content: center;
@@ -135,7 +136,6 @@ p{
 @media (max-width: 890px){
 
     body {
-      text-align: center;
       display: flex;
       align-items: center;
     }
@@ -143,6 +143,11 @@ p{
     h1 {
       margin: auto;
       width: 90%;
+      text-align: center;
+    }
+
+    h2{
+        text-align: center;
     }
   
     p {
@@ -175,14 +180,10 @@ p{
     }
 }
 
-@media (max-width: 375px) {
+@media (min-width: 375px) {
     body {
       width: 100%;
     }
   }
 
-
-
-/*
-<img class="rounded-circle" src="./images/image-irene.jpg" alt="irene avatar">*/
 
